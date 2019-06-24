@@ -491,7 +491,8 @@ sub {
 }
 
 .card-sci .card-sci-btn-container .card-sci-btn {
-  min-width: 15rem;
+  min-width: 12rem;
+  margin: auto;
 }
 
 .card-sci .card-sci-btn-container .card-sci-btn p {
@@ -1431,28 +1432,20 @@ p.show_cite::before {
 
 @-webkit-keyframes slide-in {
   0% {
-    -webkit-transform: translateY(50%);
-    transform: translateY(50%);
     opacity: 0.1;
   }
 
   100% {
-    -webkit-transform: translateY(0%);
-    transform: translateY(0%);
     opacity: 1;
   }
 }
 
 @keyframes slide-in {
   0% {
-    -webkit-transform: translateY(50%);
-    transform: translateY(50%);
     opacity: 0.1;
   }
 
   100% {
-    -webkit-transform: translateY(0%);
-    transform: translateY(0%);
     opacity: 1;
   }
 }
