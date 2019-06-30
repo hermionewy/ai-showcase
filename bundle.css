@@ -441,6 +441,66 @@ sub {
   border-radius: 0px;
 }
 
+.checkbox-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.checkbox-container .checkbox-btn {
+  padding: 0.3rem 0.6rem;
+  margin: 0.2rem;
+  border: 1px solid #e05b43;
+  width: 4.5rem;
+  height: 2.5rem;
+  background-color: #fff;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.checkbox-container .checkbox-btn.checked-correct {
+  border: 1px solid #8bae72;
+  background-color: #8bae72;
+  pointer-events: none;
+  color: #fff;
+}
+
+.checkbox-container .checkbox-btn.checked-wrong {
+  border: 1px solid #e05b43;
+  background-color: #fff;
+  color: #000;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.checkbox-container .checkbox-btn.active {
+  color: #fff;
+  background-color: #e05b43;
+}
+
+.checkbox-container .checkbox-btn:hover {
+  border: 1px solid #e05b43;
+}
+
+.guessbtn-visual:first-child {
+  opacity: 0.5;
+}
+
+.guessbtn-visual:first-child.active {
+  opacity: 1;
+}
+
+.guessbtn-visual:first-child.active.blinking {
+  -webkit-animation: blinkingText 0.8s ease-in-out;
+  animation: blinkingText 0.8s ease-in-out;
+}
+
 .card-sci {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -649,6 +709,12 @@ body::after {
   display: -ms-flexbox;
   display: flex;
   height: 100vh;
+}
+
+[data-boldspan] {
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Moderat", "Helvetica Neue", "Helvetica", sans-serif;
 }
 
 .icon-color {
@@ -1251,6 +1317,10 @@ p.show_cite::before {
     height: 200px;
   }
 
+  .checkbox-container .checkbox-btn:hover {
+    border: 2px solid #e05b43;
+  }
+
   .card-sci {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1427,6 +1497,50 @@ p.show_cite::before {
 @-moz-document url-prefix() {
   img:-moz-loading {
     visibility: hidden;
+  }
+}
+
+@-webkit-keyframes blinkingText {
+  0% {
+    background-color: #e05b43;
+  }
+
+  49% {
+    background-color: transparent;
+  }
+
+  50% {
+    background-color: transparent;
+  }
+
+  90% {
+    background-color: transparent;
+  }
+
+  100% {
+    background-color: #e05b43;
+  }
+}
+
+@keyframes blinkingText {
+  0% {
+    background-color: #e05b43;
+  }
+
+  49% {
+    background-color: transparent;
+  }
+
+  50% {
+    background-color: transparent;
+  }
+
+  90% {
+    background-color: transparent;
+  }
+
+  100% {
+    background-color: #e05b43;
   }
 }
 
