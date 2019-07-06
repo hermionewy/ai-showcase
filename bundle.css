@@ -753,7 +753,12 @@ body::after {
   line-height: 1.5;
   position: relative;
   width: 100%;
-  margin-top: 72px;
+  padding-top: 4.5rem;
+}
+
+.article.darkMode {
+  background-color: #000;
+  color: #fdfdfc;
 }
 
 .img-desp {
@@ -900,12 +905,12 @@ header .site-header svg {
   width: 209px;
 }
 
-.black {
+.darkMode {
   background-color: #000;
 }
 
-.black .site-header svg #Group-3 path {
-  fill: #fff;
+.darkMode .site-header svg #Group-3 path {
+  fill: #fdfdfc;
 }
 
 .site-header__nav-list {
@@ -1267,6 +1272,22 @@ p.show_cite::before {
 
 #start-3 .spacer {
   height: 73px;
+}
+
+#start-1 .card-sci-btn {
+  background-color: #000;
+}
+
+#start-1 .card-sci-btn p {
+  color: #fdfdfc;
+}
+
+#start-2 .card--btn {
+  background-color: #000;
+}
+
+#start-2 .card--btn p {
+  color: #fdfdfc;
 }
 
 .visual-info-tip {
