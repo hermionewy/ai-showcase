@@ -538,7 +538,7 @@ a.card-sci-start-btn img {
   -ms-flex-align: center;
   align-items: center;
   font-family: "Moderat", "Helvetica Neue", "Helvetica", sans-serif;
-  height: calc(100% - 73px);
+  min-height: calc(100% - 73px);
 }
 
 .card-sci .card-sci-title,.card-sci .card-sci-btn-container {
@@ -1274,11 +1274,59 @@ p.show_cite::before {
   height: 73px;
 }
 
-#start-1 .card-sci-btn {
+#start-1 {
+  position: relative;
+  background-color: #000;
+  color: #fdfdfc;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+#start-1 .card-sci-start-img-container {
+  position: fixed;
+  top: 4.5rem;
+  left: 0px;
+}
+
+#start-1 .card-sci-start-img-container .start-img-container {
+  width: 100%;
+  height: auto;
+}
+
+#start-1 .card--btn {
+  margin-bottom: 12rem;
+}
+
+#start-1 .start1-step {
+  margin-top: 65vh;
+  margin-bottom: 15vh;
+  background-color: #000;
+  color: #fdfdfc;
+}
+
+#start-1 .start1-step .card-sci-start__p {
+  text-align: center;
+  font-family: "GrifoL-Bold", "Georgia", serif;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+#start-1 #step-0 .card-sci-start__p {
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+#start-1 .card-sci-btn-container {
+  margin: 5rem 0;
+}
+
+#start-1 .card-sci-btn-container .card-sci-btn {
   background-color: #000;
 }
 
-#start-1 .card-sci-btn p {
+#start-1 .card-sci-btn-container .card-sci-btn p {
   color: #fdfdfc;
 }
 
@@ -1487,6 +1535,11 @@ p.show_cite::before {
     right: 26vw;
     top: 2rem;
   }
+
+  #start-1 .start1-step {
+    margin-top: 40vh;
+    margin-bottom: 50vh;
+  }
 }
 
 @media only screen and (min-width: 65em) {
@@ -1535,6 +1588,10 @@ p.show_cite::before {
 
   .select__div {
     min-height: 250px;
+  }
+
+  #start-1 .card--btn {
+    margin-bottom: 20rem;
   }
 }
 
