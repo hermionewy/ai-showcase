@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d4f6ea1-62f1-4dac-bf35-922b038b4e20" name="Default Changelist" comment="" />
+    <list default="true" id="6d4f6ea1-62f1-4dac-bf35-922b038b4e20" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/assets/images/music/music-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/music/music-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/music/music-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/music/music-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/music/music-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/music/music-6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/music/music-8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/music/music-8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/speech/speech-text-7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/speech/speech-text-7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/speech/speech-text-9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/speech/speech-text-9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/start/animation/glitche_face_v2_10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/start/animation/glitche_face_v2_10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/start/animation/glitche_face_v2_11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/start/animation/glitche_face_v2_11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/start/animation/glitche_face_v2_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/start/animation/glitche_face_v2_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/start/animation/glitche_face_v2_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/start/animation/glitche_face_v2_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/start/animation/glitche_face_v2_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/start/animation/glitche_face_v2_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/start/animation/glitche_face_v2_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/start/animation/glitche_face_v2_7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/start/animation/glitche_face_v2_8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/start/animation/glitche_face_v2_8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/start/animation/glitche_face_v2_9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/start/animation/glitche_face_v2_9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundle.css" beforeDir="false" afterPath="$PROJECT_DIR$/bundle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,9 +34,9 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -32,7 +50,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="974" />
@@ -42,8 +60,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -79,14 +97,16 @@
       <workItem from="1561912569898" duration="1227000" />
       <workItem from="1562280244671" duration="483000" />
       <workItem from="1562715985595" duration="246000" />
+      <workItem from="1564262883204" duration="568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3532000" />
+    <option name="totallyTimeSpent" value="4100000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="974" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="974" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

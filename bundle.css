@@ -342,9 +342,21 @@ a.card-sci-start-btn:hover {
   text-decoration: none;
 }
 
+a.card-sci-start-btn:hover img {
+  -webkit-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
 a.card-sci-start-btn .btn__p {
   color: #e05b43;
   text-align: center;
+  max-width: 12rem;
+  margin: 0.2rem auto;
+  font-weight: bold;
   font-size: 20px;
   line-height: 1.2;
 }
@@ -353,6 +365,9 @@ a.card-sci-start-btn img {
   width: 150px;
   height: 150px;
   margin: auto;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
 }
 
 .btn--primary {
@@ -590,7 +605,7 @@ a.card-sci-start-btn img {
 
 .card-sci .card-sci__right {
   padding: 0rem 2rem;
-  max-width: 40rem;
+  z-index: 2;
 }
 
 .card-sci .card-sci__right .card--btn {
@@ -618,11 +633,11 @@ a.card-sci-start-btn img {
 .card-sci .hero__media {
   width: 100%;
   display: inline;
-  padding: 0;
 }
 
-.card-sci .hero__media img {
-  width: 100%;
+.card-sci .hero__media .hero__img {
+  width: auto;
+  max-width: 100%;
   margin: auto;
   max-height: 70vh;
 }
@@ -644,6 +659,10 @@ a.card-sci-start-btn img {
   font-size: 1rem;
   font-weight: 700;
   font-family: "Moderat", "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+.card-sci .hero__content .card__content p a {
+  color: #e05b43;
 }
 
 .card-sci .hero__inner {
@@ -911,6 +930,10 @@ header .site-header svg {
 
 .darkMode .site-header svg #Group-3 path {
   fill: #fdfdfc;
+}
+
+#music-5 .hero__media {
+  display: none;
 }
 
 .site-header__nav-list {
@@ -1195,6 +1218,15 @@ header .site-header svg {
   animation: fade-out 0.5s ease-in forwards;
 }
 
+.slider-container {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.slider-container .slider_play_btn .btn__p {
+  margin-bottom: 0rem;
+}
+
 .slider-container .slider_play_btn .btn__p .play-svg {
   display: none;
 }
@@ -1324,8 +1356,20 @@ header .site-header svg {
   cursor: pointer;
 }
 
+#speech-text-2 .btn--div,#speech-text-4 .btn--div,#speech-text-5 .btn--div {
+  opacity: 1;
+}
+
+#speech-text-6 .hero__content {
+  z-index: 100;
+}
+
+#speech-text-3 .hero__media figure img {
+  width: 80%;
+}
+
 #start-3 .spacer {
-  height: 73px;
+  height: 0.5rem;
 }
 
 #start-1 {
@@ -1343,29 +1387,30 @@ header .site-header svg {
   top: 4.5rem;
   left: 0px;
   width: 100%;
+  height: auto;
   background-color: #000;
 }
 
 #start-1 .card-sci-start-img-container .start-img-container {
   width: 100%;
-  height: auto;
-  z-index: 1001;
+  height: 100%;
 }
 
 #start-1 .card-sci-start-img-container .start-img-container .start-img-inner {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  width: 100%;
 }
 
 #start-1 .card-sci-start-img-container .start-img-container .start-img-inner .card-sci-img {
   position: relative;
-  top: 0;
   opacity: 0;
-  -webkit-transition: 1.5s ease-in-out;
-  -o-transition: 1.5s ease-in-out;
-  transition: 1.5s ease-in-out;
-  z-index: 2000;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -webkit-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
 }
 
 #start-1 .card-sci-start-img-container .start-img-container .start-img-inner .card-sci-img.active {
@@ -1379,13 +1424,15 @@ header .site-header svg {
 #start-1 .start1-step {
   margin-top: 65vh;
   margin-bottom: 15vh;
-  background-color: #000;
+  background-color: rgba(0,0,0,0.6);
   color: #fdfdfc;
 }
 
 #start-1 .start1-step .card-sci-start__p {
   text-align: center;
   font-family: "Grifo-Bold", "Georgia", "Times", "Times New Roman", serif;
+  max-width: 40rem;
+  margin: auto;
   font-size: 24px;
   line-height: 1.2;
   opacity: 0.3;
@@ -1459,6 +1506,11 @@ header .site-header svg {
 .visual-info-tip.active {
   margin: 0.5rem 0rem;
   display: inline-block;
+}
+
+#visual-0 img,#music-1 img,#speech-text-0 img {
+  -webkit-animation: 1s imageScale ease-in-out;
+  animation: 1s imageScale ease-in-out;
 }
 
 @font-face {
@@ -1584,6 +1636,10 @@ header .site-header svg {
     margin-right: 2rem;
   }
 
+  #music-5 .hero__media {
+    display: inline-block;
+  }
+
   .site-header__nav-list .site-header__nav-item {
     margin: 0.4rem;
   }
@@ -1638,6 +1694,7 @@ header .site-header svg {
 
   #start-1 .card-sci-start-img-container {
     width: 50%;
+    height: 100%;
   }
 
   #start-1 .start1-step {
@@ -1649,6 +1706,11 @@ header .site-header svg {
 @media only screen and (min-width: 65em) {
   body {
     font-size: 20px;
+  }
+
+  a.card-sci-start-btn img {
+    width: 250px;
+    height: 250px;
   }
 
   .hero__content .btn--secondary {
@@ -1670,12 +1732,7 @@ header .site-header svg {
     min-height: 45vh;
   }
 
-  .card-sci .hero__media {
-    width: 50%;
-    display: block;
-  }
-
-  .card-sci .hero__media img {
+  .card-sci .hero__media .hero__img {
     height: auto;
     max-height: 72vh;
   }
@@ -1699,6 +1756,15 @@ header .site-header svg {
     left: 15rem;
   }
 
+  #start-1 .card-sci-start-img-container .start-img-container .start-img-inner {
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
   #start-1 .card--btn {
     margin-bottom: 20rem;
   }
@@ -1708,13 +1774,10 @@ header .site-header svg {
   }
 }
 
-@media only screen and (min-width: 90em) {
-  .card-sci .hero__media img {
-    min-width: 70%;
-    max-width: 85%;
-    width: auto;
-    height: auto;
-    max-height: 80vh;
+@media only screen and (min-width: 120em) {
+  a.card-sci-start-btn img {
+    width: 300px;
+    height: 300px;
   }
 }
 
@@ -1933,5 +1996,29 @@ header .site-header svg {
 
   to {
     opacity: 0;
+  }
+}
+
+@-webkit-keyframes imageScale {
+  from {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+  }
+
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes imageScale {
+  from {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+  }
+
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
   }
 }
