@@ -413,7 +413,6 @@ a.card-sci-start-btn img {
   color: #333;
   padding: 0;
   font-weight: 700;
-  display: table-row;
 }
 
 .btn--secondary:hover {
@@ -493,27 +492,11 @@ a.card-sci-start-btn img {
   position: relative;
 }
 
-.checkbox-container .checkbox-btn.checked-correct:after {
-  content: '✔';
-  color: #fff;
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-}
-
 .checkbox-container .checkbox-btn.checked-wrong {
   background-color: #a62f43 !important;
-  color: #000;
+  color: #fff;
   pointer-events: none;
   position: relative;
-}
-
-.checkbox-container .checkbox-btn.checked-wrong:after {
-  content: '✘';
-  color: #fff;
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
 }
 
 .checkbox-container .checkbox-btn.active {
@@ -1270,8 +1253,8 @@ header .site-header svg {
 }
 
 .slider .slider-ring svg {
-  width: 12px;
-  height: 12px;
+  width: 16px;
+  height: 16px;
   stroke-width: 4;
 }
 
@@ -1405,9 +1388,9 @@ header .site-header svg {
   position: relative;
   opacity: 0;
   width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
+  height: 90%;
+  -o-object-fit: contain;
+  object-fit: contain;
   -webkit-transition: 1s ease-in-out;
   -o-transition: 1s ease-in-out;
   transition: 1s ease-in-out;
@@ -1697,6 +1680,15 @@ header .site-header svg {
     height: 100%;
   }
 
+  #start-1 .card-sci-start-img-container .start-img-container .start-img-inner {
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
   #start-1 .start1-step {
     margin-top: 40vh;
     margin-bottom: 50vh;
@@ -1754,15 +1746,6 @@ header .site-header svg {
   .slider {
     max-width: 30rem;
     left: 15rem;
-  }
-
-  #start-1 .card-sci-start-img-container .start-img-container .start-img-inner {
-    height: 100%;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
   }
 
   #start-1 .card--btn {
