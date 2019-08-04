@@ -1256,6 +1256,7 @@ header .site-header svg {
   width: 16px;
   height: 16px;
   stroke-width: 4;
+  fill: #8bae72;
 }
 
 .slider p {
@@ -1337,6 +1338,14 @@ header .site-header svg {
   border-radius: 0.5rem;
   background: #e05b43;
   cursor: pointer;
+}
+
+.card__content__p .userchoice {
+  color: #e05b43;
+}
+
+.card__content__p .spotify {
+  color: #8bae72;
 }
 
 #speech-text-2 .btn--div,#speech-text-4 .btn--div,#speech-text-5 .btn--div {
@@ -1494,6 +1503,10 @@ header .site-header svg {
 #visual-0 img,#music-1 img,#speech-text-0 img {
   -webkit-animation: 1s imageScale ease-in-out;
   animation: 1s imageScale ease-in-out;
+}
+
+.card-sci .videoElem {
+  margin-bottom: 0.5rem;
 }
 
 @font-face {
