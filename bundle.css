@@ -1374,6 +1374,16 @@ header .site-header svg {
   flex-direction: row-reverse;
 }
 
+#start-1 .card-sci-start__p b {
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Moderat", "Helvetica Neue", "Helvetica", sans-serif;
+  line-height: 1.5;
+  display: inline-block;
+  margin-top: 2rem;
+}
+
 #start-1 .card-sci-start-img-container {
   position: fixed;
   top: 4.5rem;
@@ -1462,6 +1472,10 @@ header .site-header svg {
   color: #fdfdfc;
 }
 
+#step-8 {
+  height: 100vh;
+}
+
 .videoContainer {
   position: absolute;
   width: 100%;
@@ -1507,6 +1521,18 @@ header .site-header svg {
 
 .card-sci .videoElem {
   margin-bottom: 0.5rem;
+}
+
+#visual-2 .btn--div,#visual-3 .btn--div,#visual-4 .btn--div,#visual-5 .btn--div {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+#visual-2 .btn--div.active,#visual-3 .btn--div.active,#visual-4 .btn--div.active,#visual-5 .btn--div.active {
+  opacity: 1;
+  pointer-events: auto;
+  cursor: pointer;
 }
 
 @font-face {
