@@ -638,6 +638,10 @@ a.card-sci-start-btn img {
   line-height: 1.2;
 }
 
+.card-sci .hero__content .card__content .btn--primary:first-child {
+  pointer-events: none;
+}
+
 .card-sci .hero__content .card__content p span {
   font-size: 1rem;
   font-weight: 700;
@@ -1474,6 +1478,23 @@ header .site-header svg {
 
 #step-8 {
   height: 100vh;
+}
+
+.scroll_down {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  z-index: 100;
+  color: #fff;
+}
+
+.scroll_down .btn__p {
+  text-align: center;
+  color: #fff;
+}
+
+.scroll_down .btn__p span {
+  font-size: 2rem;
 }
 
 .videoContainer {
