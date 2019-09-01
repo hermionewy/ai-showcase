@@ -521,10 +521,37 @@ a.card-sci-start-btn img {
   animation: blinkingText 0.8s ease-in-out;
 }
 
+.return__container {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 0rem;
+}
+
+.return__container a.returnToStart {
+  color: #000;
+  border-bottom: 1px solid #f33;
+}
+
+.return__container a.returnToStart.darkMode {
+  color: #fff;
+}
+
+.return__container a.returnToStart .btn__p {
+  font-size: 0.8rem !important;
+}
+
+.return__container a.returnToStart:hover {
+  color: #f33;
+  text-decoration: none;
+}
+
 .card-sci {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
+  margin-bottom: 2rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -1483,7 +1510,7 @@ header .site-header svg {
 .scroll_down {
   position: fixed;
   bottom: 2rem;
-  left: 50%;
+  width: 100%;
   z-index: 100;
   color: #fff;
 }
@@ -1491,10 +1518,11 @@ header .site-header svg {
 .scroll_down .btn__p {
   text-align: center;
   color: #fff;
+  font-size: 0.7rem;
 }
 
 .scroll_down .btn__p span {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .videoContainer {
@@ -1542,6 +1570,7 @@ header .site-header svg {
 
 .card-sci .videoElem {
   margin-bottom: 0.5rem;
+  max-height: 72vh;
 }
 
 #visual-2 .btn--div,#visual-3 .btn--div,#visual-4 .btn--div,#visual-5 .btn--div {
@@ -1752,6 +1781,14 @@ header .site-header svg {
   #start-1 .start1-step {
     margin-top: 40vh;
     margin-bottom: 50vh;
+  }
+
+  .scroll_down .btn__p {
+    font-size: 0.9rem;
+  }
+
+  .scroll_down .btn__p span {
+    font-size: 2rem;
   }
 }
 
