@@ -946,7 +946,7 @@ header .site-header svg {
   fill: #fdfdfc;
 }
 
-#music-5 .hero__media {
+#music-4 .hero__media {
   display: none;
 }
 
@@ -1379,19 +1379,19 @@ header .site-header svg {
   color: #8bae72;
 }
 
-#speech-text-2 .btn--div,#speech-text-4 .btn--div,#speech-text-5 .btn--div {
+#speech-2 .btn--div,#speech-4 .btn--div,#speech-5 .btn--div {
   opacity: 1;
 }
 
-#speech-text-6 .hero__content {
+#speech-6 .hero__content {
   z-index: 100;
 }
 
-#speech-text-3 .hero__media figure img {
+#speech-3 .hero__media figure img {
   width: 80%;
 }
 
-#start-3 .spacer {
+#start-2 .spacer {
   height: 0.5rem;
 }
 
@@ -1495,16 +1495,9 @@ header .site-header svg {
   color: #fdfdfc;
 }
 
-#start-2 .card--btn {
-  background-color: #000;
-}
-
-#start-2 .card--btn p {
-  color: #fdfdfc;
-}
-
 #step-8 {
   height: 100vh;
+  background-color: rgba(0,0,0,0) !important;
 }
 
 .scroll_down {
@@ -1563,7 +1556,7 @@ header .site-header svg {
   display: inline-block;
 }
 
-#visual-0 img,#music-1 img,#speech-text-0 img {
+#visual-0 img,#music-0 img,#speech-0 img {
   -webkit-animation: 1s imageScale ease-in-out;
   animation: 1s imageScale ease-in-out;
 }
@@ -1708,7 +1701,7 @@ header .site-header svg {
     margin-right: 2rem;
   }
 
-  #music-5 .hero__media {
+  #music-4 .hero__media {
     display: inline-block;
   }
 
