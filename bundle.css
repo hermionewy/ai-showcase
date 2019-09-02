@@ -526,11 +526,14 @@ a.card-sci-start-btn img {
   width: 100%;
   text-align: center;
   bottom: 0rem;
+  max-width: 24rem;
+  margin: 0 auto 2rem auto;
+  font-size: 15px;
+  line-height: 1.2;
 }
 
 .return__container a.returnToStart {
-  color: #000;
-  border-bottom: 1px solid #f33;
+  color: #969696;
 }
 
 .return__container a.returnToStart.darkMode {
@@ -538,7 +541,8 @@ a.card-sci-start-btn img {
 }
 
 .return__container a.returnToStart .btn__p {
-  font-size: 0.8rem !important;
+  font-size: 0.6rem !important;
+  text-transform: uppercase;
 }
 
 .return__container a.returnToStart:hover {
@@ -1383,12 +1387,34 @@ header .site-header svg {
   opacity: 1;
 }
 
-#speech-6 .hero__content {
-  z-index: 100;
-}
-
 #speech-3 .hero__media figure img {
   width: 80%;
+}
+
+#speech-5 .hero__img {
+  display: inline-block;
+}
+
+#speech-5 .hero__img.hide {
+  display: none;
+}
+
+#speech-5 .videoElem {
+  display: none;
+}
+
+#speech-5 .videoElem.show {
+  display: inline-block;
+}
+
+#speech-5 #speech-5__btn-1 {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+#speech-5 #speech-5__btn-1.active {
+  opacity: 1;
+  pointer-events: auto;
 }
 
 #start-2 .spacer {
@@ -1503,7 +1529,7 @@ header .site-header svg {
 .scroll_down {
   position: fixed;
   bottom: 2rem;
-  width: 100%;
+  width: calc(50% - 4rem);
   z-index: 100;
   color: #fff;
 }
@@ -1651,6 +1677,13 @@ header .site-header svg {
 
   .checkbox-container .checkbox-btn:hover {
     border: 2px solid #e05b43;
+  }
+
+  .return__container {
+    margin: auto;
+    max-width: 30rem;
+    font-size: 16px;
+    line-height: 1.2;
   }
 
   .card-sci {
@@ -1803,6 +1836,16 @@ header .site-header svg {
     width: 30px;
     height: 30px;
     margin: 6px auto 3px auto;
+  }
+
+  .return__container {
+    width: 50%;
+    max-width: 33rem;
+    display: block;
+  }
+
+  .return__container a.returnToStart .btn__p {
+    font-size: 0.7rem !important;
   }
 
   .card-sci .card-sci-title .title {
