@@ -1529,7 +1529,7 @@ header .site-header svg {
 .scroll_down {
   position: fixed;
   bottom: 2rem;
-  width: calc(50% - 4rem);
+  width: calc(100% - 5rem);
   z-index: 100;
   color: #fff;
 }
@@ -1807,6 +1807,10 @@ header .site-header svg {
   #start-1 .start1-step {
     margin-top: 40vh;
     margin-bottom: 50vh;
+  }
+
+  .scroll_down {
+    width: calc(50% - 4rem);
   }
 
   .scroll_down .btn__p {
