@@ -522,12 +522,11 @@ a.card-sci-start-btn img {
 }
 
 .return__container {
-  position: absolute;
   width: 100%;
   text-align: center;
   bottom: 0rem;
   max-width: 24rem;
-  margin: 0 auto 2rem auto;
+  margin: 2rem auto 1rem auto;
   font-size: 15px;
   line-height: 1.2;
 }
@@ -1680,8 +1679,8 @@ header .site-header svg {
   }
 
   .return__container {
-    margin: auto;
     max-width: 30rem;
+    margin: 3rem auto 1rem auto;
     font-size: 16px;
     line-height: 1.2;
   }
@@ -1845,7 +1844,6 @@ header .site-header svg {
   .return__container {
     width: 50%;
     max-width: 33rem;
-    display: block;
   }
 
   .return__container a.returnToStart .btn__p {
