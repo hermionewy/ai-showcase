@@ -1491,12 +1491,12 @@ header .site-header svg {
   font-family: "Grifo-Bold", "Georgia", "Times", "Times New Roman", serif;
   max-width: 40rem;
   margin: auto;
-  font-size: 24px;
-  line-height: 1.2;
   opacity: 0.3;
   -webkit-transition: 1.5s ease-in-out;
   -o-transition: 1.5s ease-in-out;
   transition: 1.5s ease-in-out;
+  font-size: 24px;
+  line-height: 1.2;
 }
 
 #start-1 .start1-step .card-sci-start__p.active {
@@ -1520,6 +1520,11 @@ header .site-header svg {
   color: #fdfdfc;
 }
 
+#step-1 {
+  min-height: 1rem;
+  opacity: 0;
+}
+
 #step-8 {
   height: 100vh;
   background-color: rgba(0,0,0,0) !important;
@@ -1541,6 +1546,33 @@ header .site-header svg {
 
 .scroll_down .btn__p span {
   font-size: 1.5rem;
+}
+
+#start-2 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+#start-2 .card-sci-btn-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+#start-2 .card-sci-btn-container .card-sci-start-btn .btn__p {
+  font-size: 16px;
+  line-height: 1.2;
+  margin: 1rem auto;
+}
+
+#start-2 .opening-byline {
+  margin: 1rem;
+  font-size: 15px;
+  line-height: 1.2;
 }
 
 .videoContainer {
@@ -1591,13 +1623,13 @@ header .site-header svg {
   max-height: 72vh;
 }
 
-#visual-2 .btn--div,#visual-3 .btn--div,#visual-4 .btn--div,#visual-5 .btn--div {
-  opacity: 0.5;
+#visual-2 .btn--div,#visual-3 .btn--div,#visual-4 .btn--div,#visual-5 .btn--div,#visual-6 .btn--div {
+  opacity: 0;
   pointer-events: none;
   cursor: not-allowed;
 }
 
-#visual-2 .btn--div.active,#visual-3 .btn--div.active,#visual-4 .btn--div.active,#visual-5 .btn--div.active {
+#visual-2 .btn--div.active,#visual-3 .btn--div.active,#visual-4 .btn--div.active,#visual-5 .btn--div.active,#visual-6 .btn--div.active {
   opacity: 1;
   pointer-events: auto;
   cursor: pointer;
@@ -1808,6 +1840,10 @@ header .site-header svg {
     margin-bottom: 50vh;
   }
 
+  #start-1 .start1-step .card-sci-start__p {
+    font-size: 30px;
+  }
+
   .scroll_down {
     width: calc(50% - 4rem);
   }
@@ -1818,6 +1854,23 @@ header .site-header svg {
 
   .scroll_down .btn__p span {
     font-size: 2rem;
+  }
+
+  #start-2 .card-sci-btn-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  #start-2 .card-sci-btn-container .card-sci-start-btn .btn__p {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  #start-2 .opening-byline {
+    font-size: 16px;
+    line-height: 1.2;
   }
 }
 
