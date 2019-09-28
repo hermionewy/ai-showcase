@@ -179,22 +179,22 @@ caption,th,td {
 
 .root {
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 .medium {
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 .large {
   font-size: 24px;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 .x-large {
   font-size: 32px;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 .xx-large {
@@ -230,25 +230,25 @@ body {
 
 h1 {
   font-size: 32px;
-  line-height: 1.2;
+  line-height: 1.5;
   margin-top: 1.5rem;
 }
 
 h2 {
   font-size: 24px;
-  line-height: 1.2;
+  line-height: 1.5;
   margin-top: 1.5rem;
 }
 
 h3 {
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.5;
   margin-top: 1.5rem;
 }
 
 h4 {
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.5;
   margin-top: 1.5rem;
 }
 
@@ -358,7 +358,7 @@ a.card-sci-start-btn .btn__p {
   margin: 0.2rem auto;
   font-weight: bold;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 a.card-sci-start-btn img {
@@ -368,6 +368,10 @@ a.card-sci-start-btn img {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
+}
+
+.btn--div {
+  margin-top: 1rem;
 }
 
 .btn--primary {
@@ -526,7 +530,7 @@ a.card-sci-start-btn img {
   text-align: center;
   bottom: 0rem;
   max-width: 24rem;
-  margin: 2rem auto 1rem auto;
+  margin: 0rem auto 1rem auto;
   font-size: 15px;
   line-height: 1.2;
 }
@@ -554,7 +558,6 @@ a.card-sci-start-btn img {
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  margin-bottom: 2rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -607,7 +610,7 @@ a.card-sci-start-btn img {
 
 .card-sci .card-sci-btn-container .card-sci-btn p {
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 .card-sci .card-sci__left,.card-sci .card-sci__right {
@@ -627,7 +630,7 @@ a.card-sci-start-btn img {
 
 .card-sci .card-sci__right .card-sci__title {
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.5;
   color: #e05b43;
 }
 
@@ -641,6 +644,10 @@ a.card-sci-start-btn img {
 
 .card-sci .title__game {
   font-family: "Grifo-Bold", "Georgia", "Times", "Times New Roman", serif;
+}
+
+.card-sci .title__game.hidden {
+  display: none;
 }
 
 .card-sci .hero__media {
@@ -663,7 +670,7 @@ a.card-sci-start-btn img {
   flex-direction: column;
   text-align: center;
   max-width: 24rem;
-  margin: 0 auto 2rem auto;
+  margin: 0 auto 0 auto;
   font-size: 15px;
   line-height: 1.2;
 }
@@ -721,6 +728,10 @@ figure,picture,img {
   cursor: pointer;
 }
 
+.card__content__p.hidden {
+  display: none;
+}
+
 html {
   height: 100vh;
   -webkit-box-sizing: border-box;
@@ -763,10 +774,10 @@ body::after {
 }
 
 #content {
+  min-height: calc(100vh - 73px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 100vh;
 }
 
 [data-boldspan] {
@@ -789,7 +800,6 @@ body::after {
   line-height: 1.5;
   position: relative;
   width: 100%;
-  padding-top: 4.5rem;
 }
 
 .article.darkMode {
@@ -929,9 +939,8 @@ header {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 1rem 2rem;
-  width: calc(100% - 16px);
+  width: 100%;
   height: 73px;
-  position: fixed;
   top: 0.5rem;
   z-index: 100;
 }
@@ -1496,6 +1505,7 @@ header .site-header svg {
   -o-transition: 1.5s ease-in-out;
   transition: 1.5s ease-in-out;
   font-size: 24px;
+  line-height: 1.5;
   line-height: 1.2;
 }
 
@@ -1565,8 +1575,9 @@ header .site-header svg {
 
 #start-2 .card-sci-btn-container .card-sci-start-btn .btn__p {
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.5;
   margin: 1rem auto;
+  line-height: 1.2;
 }
 
 #start-2 .opening-byline {
@@ -1668,7 +1679,7 @@ header .site-header svg {
 
   p {
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.5;
   }
 
   li {
@@ -1714,7 +1725,7 @@ header .site-header svg {
     max-width: 30rem;
     margin: 3rem auto 1rem auto;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.5;
   }
 
   .card-sci {
@@ -1745,7 +1756,7 @@ header .site-header svg {
     margin: auto;
     max-width: 30rem;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.5;
   }
 
   h1,h2 {
@@ -1865,12 +1876,12 @@ header .site-header svg {
 
   #start-2 .card-sci-btn-container .card-sci-start-btn .btn__p {
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.5;
   }
 
   #start-2 .opening-byline {
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.5;
   }
 }
 
