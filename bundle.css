@@ -472,7 +472,7 @@ a.card-sci-start-btn img {
   -webkit-box-pack: left;
   -ms-flex-pack: left;
   justify-content: left;
-  padding: 0rem 1rem;
+  padding: 0.5rem 1rem 0rem 1rem;
   margin-bottom: 1.5rem;
 }
 
@@ -677,6 +677,10 @@ a.card-sci-start-btn img {
 
 .card-sci .hero__content .card__content .btn--primary:first-child {
   pointer-events: none;
+}
+
+.card-sci .hero__content .card__content .card__content__p {
+  text-align: left;
 }
 
 .card-sci .hero__content .card__content p span {
@@ -1636,13 +1640,13 @@ header .site-header svg {
   max-height: 72vh;
 }
 
-#visual-2 .btn--div,#visual-3 .btn--div,#visual-4 .btn--div,#visual-5 .btn--div,#visual-6 .btn--div {
+#visual-2 .btn--div,#visual-3 .btn--div,#visual-4 .btn--div,#visual-6 .btn--div {
   opacity: 0;
   pointer-events: none;
   cursor: not-allowed;
 }
 
-#visual-2 .btn--div.active,#visual-3 .btn--div.active,#visual-4 .btn--div.active,#visual-5 .btn--div.active,#visual-6 .btn--div.active {
+#visual-2 .btn--div.active,#visual-3 .btn--div.active,#visual-4 .btn--div.active,#visual-6 .btn--div.active {
   opacity: 1;
   pointer-events: auto;
   cursor: pointer;
@@ -1759,6 +1763,10 @@ header .site-header svg {
     max-width: 30rem;
     font-size: 16px;
     line-height: 1.5;
+  }
+
+  .card-sci .hero__content .card__content .card__content__p {
+    text-align: center;
   }
 
   h1,h2 {
